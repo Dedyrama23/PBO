@@ -37,8 +37,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("-----Selamat Datang di BANK JAVA-----");
         Scanner scanner = new Scanner(System.in);
-        Nasabah nasabah = new Nasabah("n3122510641", "Yaafi Effendi", "kambing1927");
-        nasabah.tambahTabungan("3122510641001");
+        Nasabah nasabah = new Nasabah("n1001", "Danu", "danu77");
+        nasabah.tambahTabungan("500000");
 
         int choice;
         do {
